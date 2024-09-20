@@ -17,14 +17,14 @@ Citizen.CreateThread(function()
             if err == 0 then
                 print("")
                 print("\27[37m[\027[31mumb_fac\27[37m] \27[37mScript \027[31mRecusado\27[37m Sem licensa!") -- Cinza, Amarelo, Cinza, Verde, Azul
-                print("[\27[38;5;229mDiscord\27[37m] https://discord.gg/umbrella")
+                print("[\27[38;5;229mDiscord\27[37m]")
                 Citizen.Wait(2000)
                 os.exit()
             end
             if text == notLicense then
                 print("")
                 print("\27[37m[\027[31mumb_fac\27[37m] \27[37mScript \027[31mRecusado\27[37m Sem licensa!") -- Cinza, Amarelo, Cinza, Verde, Azul
-                print("[\27[38;5;229mDiscord\27[37m] https://discord.gg/umbrella")
+                print("[\27[38;5;229mDiscord\27[37m]")
                 Citizen.Wait(5000)
                 os.exit()
 
@@ -32,7 +32,7 @@ Citizen.CreateThread(function()
                 Citizen.Wait(7000)
                 print("")
                 print("\27[37m[\027[94mumb_fac\27[37m] \27[37mScript \027[94mIniciada\27[37m com sucesso ") -- Cinza, Amarelo, Cinza, Verde, Azul
-                print("[\27[38;5;229mDiscord\27[37m] https://discord.gg/umbrella")
+                print("[\27[38;5;229mDiscord\27[37m]")
             end
         end, 'POST', value, { ['Content-Type'] = 'application/json', ['hux'] = value })
 
@@ -43,21 +43,21 @@ Citizen.CreateThread(function()
             if errorCode == 0 then
                 print("")
                 print("\27[37m[\027[31mumb_fac\27[37m] \27[37mScript \027[31mRecusado\27[37m Sem licensa!") -- Cinza, Amarelo, Cinza, Verde, Azul
-                print("[\27[38;5;229mDiscord\27[37m] https://discord.gg/umbrella")
+                print("[\27[38;5;229mDiscord\27[37m]")
                 Citizen.Wait(2000)
                 os.exit()
             end
             if resultData == notLicense then
                 print("")
                 print("\27[37m[\027[31mumb_fac\27[37m] \27[37mScript \027[31mRecusado\27[37m Sem licensa!") -- Cinza, Amarelo, Cinza, Verde, Azul
-                print("[\27[38;5;229mDiscord\27[37m] https://discord.gg/umbrella")
+                print("[\27[38;5;229mDiscord\27[37m]")
                 Citizen.Wait(5000)
                 os.exit()
             else
                 Citizen.Wait(7000)
                 print("")
                 print("\27[37m[\027[94mumb_fac\27[37m] \27[37mScript \027[94mIniciado\27[37m com sucesso ") -- Cinza, Amarelo, Cinza, Verde, Azul
-                print("[\27[38;5;229mDiscord\27[37m] https://discord.gg/umbrella")
+                print("[\27[38;5;229mDiscord\27[37m]")
             end
 		end)
     end
